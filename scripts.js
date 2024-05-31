@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h2>${component.name}</h2>
                 <p><strong>Category:</strong> ${component.category}</p>
                 <p>${component.description}</p>
-                <a href="${component.link}" target="_blank">Learn More</a>
+                <a href="${component.link}" target="_blank">Start Learning</a>
             `;
             componentList.appendChild(componentDiv);
         });

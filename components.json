@@ -2,10 +2,10 @@
     {
         "name": "Official Raspberry Pi 5 8GB Starter Kit",
         "quantity": 1,
-        "description": "A comprehensive starter kit for the Raspberry Pi 5 with 8GB RAM.",
+        "description": "A comprehensive starter kit for the Raspberry Pi 5 with 8GB RAM. + 32GB Memory card",
         "image": "./images/raspberry_pi_5_8gb_starter_kit.jpg",
         "category": "Development Boards",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "5MP Raspberry Pi Zero W Camera Module W/ HBV FFC Cable",
@@ -13,7 +13,7 @@
         "description": "5MP camera module for Raspberry Pi Zero W with FFC cable.",
         "image": "./images/raspberry_pi_zero_camera_module.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "High Speed Micro SD Card Reader",
@@ -21,7 +21,7 @@
         "description": "A high-speed micro SD card reader for fast data transfer.",
         "image": "./images/micro_sd_card_reader.jpg",
         "category": "Accessories",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Bread board",
@@ -29,7 +29,7 @@
         "description": "A solderless breadboard for prototyping electronic circuits.",
         "image": "./images/breadboard.jpg",
         "category": "Accessories",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Arduino Uno R3 with Cable",
@@ -37,7 +37,7 @@
         "description": "Arduino Uno R3 development board with USB cable.",
         "image": "./images/arduino_uno_r3.jpg",
         "category": "Development Boards",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "ESP32 38Pin Development Board",
@@ -45,7 +45,7 @@
         "description": "ESP32 development board with 38 pins.",
         "image": "./images/esp32_development_board.jpg",
         "category": "Development Boards",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "ESP8266 Node MCU",
@@ -53,7 +53,7 @@
         "description": "ESP8266 Node MCU WiFi development board.",
         "image": "./images/esp8266_node_mcu.jpg",
         "category": "Development Boards",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "65pcs Flexible Breadboard Jumper Wires",
@@ -61,7 +61,7 @@
         "description": "Flexible jumper wires for breadboard connections.",
         "image": "./images/flexible_breadboard_jumper_wires.jpg",
         "category": "Accessories",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Jumper wires F-F",
@@ -69,7 +69,7 @@
         "description": "Female to female jumper wires.",
         "image": "./images/jumper_wires_ff.jpg",
         "category": "Accessories",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Jumper wires M-M",
@@ -77,7 +77,7 @@
         "description": "Male to male jumper wires.",
         "image": "./images/jumper_wires_mm.jpg",
         "category": "Accessories",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Jumper wires M-F",
@@ -85,7 +85,7 @@
         "description": "Male to female jumper wires.",
         "image": "./images/jumper_wires_mf.jpg",
         "category": "Accessories",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Bluetooth HC05",
@@ -93,7 +93,7 @@
         "description": "HC-05 Bluetooth module for wireless communication.",
         "image": "./images/bluetooth_hc05.jpg",
         "category": "Communication Modules",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "LDR",
@@ -101,7 +101,7 @@
         "description": "Light-dependent resistor for light sensing.",
         "image": "./images/ldr.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "IR Module",
@@ -109,7 +109,7 @@
         "description": "Infrared sensor module for detecting objects.",
         "image": "./images/ir_module.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Piezo Buzzer",
@@ -117,7 +117,7 @@
         "description": "Piezoelectric buzzer for sound output.",
         "image": "./images/piezo_buzzer.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Servo Motor",
@@ -125,7 +125,7 @@
         "description": "Servo motor for precise rotational control.",
         "image": "./images/servo_motor.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "MQ2 Gas Sensor",
@@ -133,7 +133,7 @@
         "description": "Gas sensor module for detecting various gases.",
         "image": "./images/mq2_gas_sensor.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "DHT11",
@@ -141,7 +141,7 @@
         "description": "DHT11 temperature and humidity sensor.",
         "image": "./images/dht11.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Lora 868MHz Module",
@@ -149,7 +149,7 @@
         "description": "LoRa module for long-range wireless communication at 868MHz.",
         "image": "./images/lora_868mhz_module.jpg",
         "category": "Communication Modules",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Lora Antenna 868MHz",
@@ -157,7 +157,7 @@
         "description": "Antenna for LoRa module at 868MHz.",
         "image": "./images/lora_antenna_868mhz.jpg",
         "category": "Communication Modules",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "LWC-CA-SMA-JACK-BH-ST-UFL-1.13mm RF Cable Assemblies-30cm",
@@ -165,7 +165,7 @@
         "description": "RF cable assembly for connecting LoRa modules.",
         "image": "./images/rf_cable_assembly.jpg",
         "category": "Accessories",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "GSM Module SIM800L",
@@ -173,7 +173,7 @@
         "description": "SIM800L GSM module for mobile communication.",
         "image": "./images/gsm_module_sim800l.jpg",
         "category": "Communication Modules",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Soil Moisture Meter, Soil Humidity Sensor, Water Sensor, Soil Hygrometer for Arduino",
@@ -181,7 +181,7 @@
         "description": "Soil moisture sensor for measuring soil humidity.",
         "image": "./images/soil_moisture_sensor.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Capacitive Soil Moisture Sensor",
@@ -189,7 +189,7 @@
         "description": "Capacitive soil moisture sensor for measuring soil humidity.",
         "image": "./images/capacitive_soil_moisture_sensor.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "5V 1 Channel Relay Module",
@@ -197,7 +197,7 @@
         "description": "5V relay module for controlling high voltage devices.",
         "image": "./images/relay_module_5v_1_channel.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "300 RPM BO Motor-Straight",
@@ -205,7 +205,7 @@
         "description": "300 RPM BO motor for robotics applications.",
         "image": "./images/bo_motor_300_rpm.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "65mm Robot Wheel for BO Motors (Yellow)",
@@ -213,7 +213,7 @@
         "description": "65mm wheel for BO motors used in robotics.",
         "image": "./images/robot_wheel_65mm.jpg",
         "category": "Accessories",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Stepper Motor and ULN2003 Stepper Motor Driver",
@@ -221,7 +221,7 @@
         "description": "Stepper motor with ULN2003 driver for precise control.",
         "image": "./images/stepper_motor_and_driver.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "DRV8833 2 Channel DC Motor Driver",
@@ -229,7 +229,7 @@
         "description": "DRV8833 motor driver for controlling two DC motors.",
         "image": "./images/drv8833_motor_driver.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Motor Drive L293D Module",
@@ -237,7 +237,7 @@
         "description": "L293D motor driver module for controlling DC motors.",
         "image": "./images/l293d_motor_driver.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "DC 3-6 V Mini Micro Submersible Water Pump",
@@ -245,7 +245,7 @@
         "description": "Mini micro submersible water pump for liquid transfer.",
         "image": "./images/micro_submersible_water_pump.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "DC Motor Mobile Phone Vibrator Vibration Motor Alarm Module – Black",
@@ -253,7 +253,7 @@
         "description": "DC motor vibrator module for mobile phone vibration.",
         "image": "./images/vibration_motor.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Case Holder For Battery 1 x 18650 Cell Box -2pcs",
@@ -261,7 +261,7 @@
         "description": "Battery holder for 18650 cells.",
         "image": "./images/battery_holder_18650.jpg",
         "category": "Accessories",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Sound Detection Sensor Module",
@@ -269,7 +269,7 @@
         "description": "Sound detection sensor module for detecting sound levels.",
         "image": "./images/sound_detection_sensor.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "LM393 Photosensitive Light-Dependent Control Sensor LDR Module",
@@ -277,7 +277,7 @@
         "description": "LM393 light-dependent resistor module for light sensing.",
         "image": "./images/lm393_ldr_module.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Resistor Assorted kit",
@@ -285,7 +285,7 @@
         "description": "600 pcs. Metal Film Resistor Assorted kit – 30 Kinds",
         "image": "./images/resistors_kit.jpg",
         "category": "Accessories",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "RGB LED",
@@ -293,7 +293,7 @@
         "description": "SMD 3 Color LED Module",
         "image": "./images/rgb_led_smd.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "LED Assortment Kit",
@@ -301,7 +301,7 @@
         "description": " 100PCS 5 Colors F3mm LED Kit",
         "image": "./images/led_kit.jpg",
         "category": "Output Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "10K Potentiometer",
@@ -309,7 +309,7 @@
         "description": "10K Ohm 3Pin 15mm Shaft Potentiometer with Knob",
         "image": "./images/potentiometer.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     },
     {
         "name": "Push Button Switch",
@@ -317,6 +317,6 @@
         "description": "12x12x7.3mm Tactile Push Button Switch",
         "image": "./images/push_button_switch.jpg",
         "category": "Sensors/Input Devices",
-        "courseLink": "https://thingqbator.nasscomfoundation.org/main/allcourse"
+        "link": "https://thingqbator.nasscomfoundation.org/main/allcourse"
     }
 ]
