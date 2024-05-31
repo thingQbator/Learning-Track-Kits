@@ -109,6 +109,44 @@ main {
     align-items: center;
 }
 
+
+.home-content {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.home-content h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.home-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bceb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.home-content .btn:hover {
+    background-color: #0093a8;
+}
+
+
 .component-list {
     display: flex;
     flex-wrap: wrap;
