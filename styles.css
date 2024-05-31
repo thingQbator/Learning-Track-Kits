@@ -12,7 +12,8 @@ body {
 header {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    /* padding-left: 0px; */
     text-align: left;
     position: fixed;
     top: 0;
@@ -24,6 +25,7 @@ header {
 .header-content {
     display: flex;
     align-items: center;
+    padding: 10px 20px;
 }
 
 .header-logo img {
@@ -41,22 +43,45 @@ header p {
     font-size: 1.2em;
 }
 
-.filters {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #fbab18;
-    top: 120px; /* Adjust based on the total height of header-content */
-    width: 100%;
-    z-index: 999;
+.filters-container {
+    position: relative;
 }
 
-.filters input {
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
-    margin: 5px;
-    width: 200px;
+    background-color: #fbab18;
+}
+
+.search-container input {
+    padding: 10px;
+    width: calc(100% - 100px);
     border-radius: 5px;
     border: 1px solid #ddd;
+}
+
+.search-container .toggle-filters {
+    background-color: #00bceb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container .toggle-filters:hover {
+    background-color: #0093a8;
+}
+
+.filters {
+    display: none; /* Hide filters by default on small screens */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    background-color: #fbab18;
+    animation: slideDown 0.3s forwards;
 }
 
 .filters button {
@@ -175,14 +200,25 @@ footer p {
         text-align: center;
     }
 
-    .filters {
-        flex-direction: column;
-        align-items: center;
-        top: 140px; /* Adjusted for smaller screens */
+    .filters-container {
+        text-align: center;
     }
 
-    .component {
-        max-width: 90%;
+    .search-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .toggle-filters {
+        margin-top: 10px;
+        display: block;
+    }
+
+    .filters {
+        flex-direction: column;
+        display: none; /* Hide filters by default */
+        width: 100%;
     }
 }
 
@@ -203,10 +239,6 @@ footer p {
         text-align: center;
     }
 
-    .filters {
-        top: 160px; /* Adjusted for even smaller screens */
-    }
-
     .component h2 {
         font-size: 1.3em;
     }
@@ -217,5 +249,46 @@ footer p {
 
     .component a {
         padding: 8px 12px;
+    }
+}
+
+/* Display filters on larger screens */
+@media (min-width: 769px) {
+    .filters {
+        display: flex !important; /* Override to show filters */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #fbab18;
+        top: 120px; /* Adjust based on the total height of header-content */
+        width: 100%;
+        z-index: 999;
+        animation: none; /* No animation on larger screens */
+    }
+
+    .toggle-filters {
+        display: none; /* Hide the filter button on larger screens */
+    }
+}
+
+@keyframes slideDown {
+    from {
+        max-height: 0;
+        opacity: 0;
+    }
+    to {
+        max-height: 200px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        max-height: 200px;
+        opacity: 1;
+    }
+    to {
+        max-height: 0;
+        opacity: 0;
     }
 }
