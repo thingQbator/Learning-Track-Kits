@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thingQbator Learning Track Kit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-logo">
+                <img src="./images/thingQbatorLogo.png" alt="thingQbator">
+            </div>
+            <div>
+                <h1>thingQbator Learning Track Kit</h1>
+                <p>Explore the components included in your learning kit and find resources to get started.</p>
+            </div>
+        </div>
+        <div class="filters">
+            <input type="text" id="search-bar" placeholder="Search components...">
+            <button onclick="filterComponents('All')">All</button>
+            <button onclick="filterComponents('Development Boards')">Development Boards</button>
+            <button onclick="filterComponents('Sensors/Input Devices')">Sensors</button>
+            <button onclick="filterComponents('Output Devices')">Output Devices</button>
+            <button onclick="filterComponents('Accessories')">Accessories</button>
+        </div>
+    </header>
+    <main>
+        <div class="component-list" id="component-list">
+            <!-- Components will be dynamically added here -->
+        </div>
+    </main>
+    <footer>
+        <img src="./images/sponsorLogo.png" alt="Sponsor">
+        <p>© 2024 thingQbator. All rights reserved.</p>
+    </footer>
+    <script src="./scripts.js"></script>
+</body>
+</html>

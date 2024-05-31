@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thingQbator Learning Track Kit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-logo">
+                <img src="./images/thingQbatorLogo.png" alt="thingQbator" />
+            </div>
+            <div class="header-title">
+                <h1>thingQbator Learning Track Kit</h1>
+                <p>Explore the components included in your learning kit and find resources to get started.</p>
+            </div>
+        </div>
+        <div class="filters">
+            <input type="text" id="search-bar" placeholder="Search components..." oninput="searchComponents()">
+            <button onclick="filterComponents('all')">All</button>
+            <button onclick="filterComponents('development-boards')">Development Boards</button>
+            <button onclick="filterComponents('sensors')">Sensors</button>
+            <button onclick="filterComponents('output-devices')">Output Devices</button>
+            <button onclick="filterComponents('Accessories')">Accessories</button>
+        </div>
+    </header>
+    <main>
+        <section class="component-list" id="component-list">
+            <div class="component development-board">
+                <img src="images/arduino.jpg" alt="Arduino">
+                <h2>Arduino</h2>
+                <p><strong>Quantity:</strong> 1</p>
+                <p><strong>Description:</strong> A microcontroller board used for building digital devices.</p>
+                <a href="https://example.com/arduino-course">Course Link</a>
+            </div>
+            <div class="component development-board">
+                <img src="images/raspberrypi.jpg" alt="Raspberry Pi 5">
+                <h2>Raspberry Pi 5</h2>
+                <p><strong>Quantity:</strong> 1</p>
+                <p><strong>Description:</strong> A small and affordable computer used for a wide range of digital projects.</p>
+                <a href="https://example.com/raspberrypi-course">Course Link</a>
+            </div>
+            <div class="component development-board">
+                <img src="images/nodemcu.jpg" alt="NodeMCU">
+                <h2>NodeMCU</h2>
+                <p><strong>Quantity:</strong> 1</p>
+                <p><strong>Description:</strong> An open-source IoT platform based on the ESP8266 Wi-Fi module.</p>
+                <a href="https://example.com/nodemcu-course">Course Link</a>
+            </div>
+            <div class="component development-board">
+                <img src="images/esp32.jpg" alt="ESP32">
+                <h2>ESP32</h2>
+                <p><strong>Quantity:</strong> 1</p>
+                <p><strong>Description:</strong> A low-cost, low-power system on a chip with Wi-Fi and Bluetooth capabilities.</p>
+                <a href="https://example.com/esp32-course">Course Link</a>
+            </div>
+            <div class="component sensor">
+                <img src="images/temperature-sensor.jpg" alt="Temperature Sensor">
+                <h2>Temperature Sensor</h2>
+                <p><strong>Quantity:</strong> 1</p>
+                <p><strong>Description:</strong> A device used to measure temperature.</p>
+                <a href="https://example.com/temperature-sensor-course">Course Link</a>
+            </div>
+            <div class="component sensor">
+                <img src="images/ultrasonic-sensor.jpg" alt="Ultrasonic Sensor">
+                <h2>Ultrasonic Sensor</h2>
+                <p><strong>Quantity:</strong> 1</p>
+                <p><strong>Description:</strong> A device used to measure distance using ultrasonic waves.</p>
+                <a href="https://example.com/ultrasonic-sensor-course">Course Link</a>
+            </div>
+            <div class="component sensor">
+                <img src="images/motion-sensor.jpg" alt="Motion Sensor">
+                <h2>Motion Sensor</h2>
+                <p><strong>Quantity:</strong> 1</p>
+                <p><strong>Description:</strong> A device that detects movement in its vicinity.</p>
+                <a href="https://example.com/motion-sensor-course">Course Link</a>
+            </div>
+            <div class="component output-device">
+                <img src="images/led.jpg" alt="LED">
+                <h2>LED</h2>
+                <p><strong>Quantity:</strong> 10</p>
+                <p><strong>Description:</strong> Light Emitting Diodes used as indicator lights.</p>
+                <a href="https://example.com/led-course">Course Link</a>
+            </div>
+            <div class="component output-device">
+                <img src="images/relay.jpg" alt="Relay Module">
+                <h2>Relay Module</h2>
+                <p><strong>Quantity:</strong> 1</p>
+                <p><strong>Description:</strong> An electrically operated switch used to control a high-power device.</p>
+                <a href="https://example.com/relay-course">Course Link</a>
+            </div>
+            <div class="component output-device">
+                <img src="images/servo.jpg" alt="Servo Motor">
+                <h2>Servo Motor</h2>
+                <p><strong>Quantity:</strong> 1</p>
+                <p><strong>Description:</strong> A rotary actuator used for precise control of angular position.</p>
+                <a href="https://example.com/servo-course">Course Link</a>
+            </div>
+            <!-- Repeat for other components as needed -->
+        </section>
+    </main>
+    <footer>
+        <img src="./images/sponsorLogo.png" alt="Sponsor">
+        <p>© 2024 thingQbator. All rights reserved.</p>
+    </footer>
+</body>
+</html>
